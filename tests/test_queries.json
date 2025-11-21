@@ -1,0 +1,113 @@
+{
+  "test_queries": [
+    {
+      "id": 1,
+      "category": "Physical Activity & Fit",
+      "query": "I'm designing a new wearable audio product. What are the core problems users face with wearing devices during physical activity?",
+      "expected_themes": ["device security during movement", "comfort during extended wear", "sweat resistance"]
+    },
+    {
+      "id": 2,
+      "category": "Battery & Usage Patterns",
+      "query": "What fundamental problems do users experience with wireless earphone battery life and charging?",
+      "expected_themes": ["lifestyle mismatch", "anxiety about battery", "usage interruption"]
+    },
+    {
+      "id": 3,
+      "category": "Connectivity & Reliability",
+      "query": "I'm exploring connectivity issues in wireless audio. What deeper user needs are revealed by Bluetooth complaints?",
+      "expected_themes": ["seamless experience expectation", "technical complexity frustration", "reliability trust"]
+    },
+    {
+      "id": 4,
+      "category": "Comfort & Wearability",
+      "query": "What are the root problems behind user complaints about earphone comfort and ear pain?",
+      "expected_themes": ["forgetting device presence", "extended use tolerance", "individual variation accommodation"]
+    },
+    {
+      "id": 5,
+      "category": "Sound Quality",
+      "query": "Looking at sound quality complaints, what core user expectations are not being met?",
+      "expected_themes": ["immersive experience", "value perception", "audio fidelity standards"]
+    },
+    {
+      "id": 6,
+      "category": "Durability & Longevity",
+      "query": "What fundamental needs emerge from reviews mentioning product durability and breakage?",
+      "expected_themes": ["investment protection", "reliability anxiety", "trust in product lifetime"]
+    },
+    {
+      "id": 7,
+      "category": "Value & Price Perception",
+      "query": "What root problems appear when users discuss price, value, and quality expectations?",
+      "expected_themes": ["expectation alignment", "feature-cost tradeoffs", "market comparison"]
+    },
+    {
+      "id": 8,
+      "category": "User Experience",
+      "query": "I'm innovating on the out-of-box experience. What core frustrations exist in setup and initial use?",
+      "expected_themes": ["effortless onboarding", "technical confidence", "immediate gratification"]
+    },
+    {
+      "id": 9,
+      "category": "Controls & Usability",
+      "query": "What deeper problems are revealed by complaints about buttons, controls, and volume adjustment?",
+      "expected_themes": ["intuitive interaction", "control without distraction", "tactile feedback reliability"]
+    },
+    {
+      "id": 10,
+      "category": "Noise & Environment",
+      "query": "Examining noise cancellation and ambient sound issues, what are users really trying to achieve?",
+      "expected_themes": ["environmental control", "immersion vs awareness balance", "contextual adaptability"]
+    },
+    {
+      "id": 11,
+      "category": "Multi-device Use",
+      "query": "What root problems exist around using wireless earphones with multiple devices?",
+      "expected_themes": ["workflow integration", "context switching friction", "device ecosystem harmony"]
+    },
+    {
+      "id": 12,
+      "category": "Storage & Portability",
+      "query": "What fundamental user needs emerge from comments about carrying, storing, and organizing earphones?",
+      "expected_themes": ["lifestyle integration", "readiness anxiety", "protection during transport"]
+    },
+    {
+      "id": 13,
+      "category": "Call Quality & Communication",
+      "query": "What core problems appear in reviews about microphone quality and phone call experience?",
+      "expected_themes": ["professional credibility", "communication clarity", "social presence"]
+    },
+    {
+      "id": 14,
+      "category": "Build Quality Perception",
+      "query": "Looking at complaints about materials, build, and feeling cheap, what deeper expectations exist?",
+      "expected_themes": ["quality signaling", "psychological value", "trust through tangibility"]
+    },
+    {
+      "id": 15,
+      "category": "Cross-cutting: Overall Satisfaction",
+      "query": "What patterns emerge across all negative reviews that point to fundamental unmet needs?",
+      "expected_themes": ["reliability expectation", "invisible technology ideal", "value-quality alignment"]
+    }
+  ],
+  "known_root_problems": [
+    {
+      "problem": "Users need confidence their device will stay secure without conscious attention during varied physical activities",
+      "related_queries": [1, 4]
+    },
+    {
+      "problem": "Users expect their device to match their lifestyle rhythm without forcing behavioral adaptations around recharging",
+      "related_queries": [2, 12]
+    },
+    {
+      "problem": "Users expect seamless, invisible connectivity that doesn't interrupt their experience or require technical troubleshooting",
+      "related_queries": [3, 8]
+    },
+    {
+      "problem": "Users want to forget they're wearing a device - seeking zero cognitive load and physical awareness during extended use",
+      "related_queries": [4, 9]
+    }
+  ]
+}
+
