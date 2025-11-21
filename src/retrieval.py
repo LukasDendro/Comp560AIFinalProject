@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from typing import List, Tuple, Dict
+from typing import Tuple, Dict
 from sklearn.metrics.pairwise import cosine_similarity
 from openai import OpenAI
 import json
@@ -279,4 +279,3 @@ Review: {row['review_text']}
             formatted_reviews.append(review_text)
         
         return "\n".join(formatted_reviews)
-
