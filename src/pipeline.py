@@ -206,4 +206,3 @@ class RootProblemDiscoveryPipeline:
         with open(text_file, 'w') as f:
             f.write(formatted_output)
         print(f"Saved formatted output to {text_file}")
-

@@ -1,2 +1,0 @@
-# Root Problem Discovery System
-
